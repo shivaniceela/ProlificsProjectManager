@@ -1,0 +1,17 @@
+C:\Users\SCeela\Documents\ProlificsProjectManager\PPM.Ui.Consoles\obj\Debug\net7.0\PPM.Ui.Consoles.csproj.AssemblyReference.cache
+C:\Users\SCeela\Documents\ProlificsProjectManager\PPM.Ui.Consoles\obj\Debug\net7.0\PPM.Ui.Consoles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SCeela\Documents\ProlificsProjectManager\PPM.Ui.Consoles\obj\Debug\net7.0\PPM.Ui.Consoles.AssemblyInfoInputs.cache
+C:\Users\SCeela\Documents\ProlificsProjectManager\PPM.Ui.Consoles\obj\Debug\net7.0\PPM.Ui.Consoles.AssemblyInfo.cs
+C:\Users\SCeela\Documents\ProlificsProjectManager\PPM.Ui.Consoles\obj\Debug\net7.0\PPM.Ui.Consoles.csproj.CoreCompileInputs.cache
+C:\Users\SCeela\Documents\ProlificsProjectManager\PPM.Ui.Consoles\bin\Debug\net7.0\PPM.Ui.Consoles.deps.json
+C:\Users\SCeela\Documents\ProlificsProjectManager\PPM.Ui.Consoles\bin\Debug\net7.0\PPM.Ui.Consoles.dll
+C:\Users\SCeela\Documents\ProlificsProjectManager\PPM.Ui.Consoles\bin\Debug\net7.0\PPM.Ui.Consoles.pdb
+C:\Users\SCeela\Documents\ProlificsProjectManager\PPM.Ui.Consoles\bin\Debug\net7.0\PPM.Domain.dll
+C:\Users\SCeela\Documents\ProlificsProjectManager\PPM.Ui.Consoles\bin\Debug\net7.0\PPM.Model.dll
+C:\Users\SCeela\Documents\ProlificsProjectManager\PPM.Ui.Consoles\bin\Debug\net7.0\PPM.Model.pdb
+C:\Users\SCeela\Documents\ProlificsProjectManager\PPM.Ui.Consoles\bin\Debug\net7.0\PPM.Domain.pdb
+C:\Users\SCeela\Documents\ProlificsProjectManager\PPM.Ui.Consoles\obj\Debug\net7.0\PPM.Ui.Consoles.csproj.CopyComplete
+C:\Users\SCeela\Documents\ProlificsProjectManager\PPM.Ui.Consoles\obj\Debug\net7.0\PPM.Ui.Consoles.dll
+C:\Users\SCeela\Documents\ProlificsProjectManager\PPM.Ui.Consoles\obj\Debug\net7.0\refint\PPM.Ui.Consoles.dll
+C:\Users\SCeela\Documents\ProlificsProjectManager\PPM.Ui.Consoles\obj\Debug\net7.0\PPM.Ui.Consoles.pdb
+C:\Users\SCeela\Documents\ProlificsProjectManager\PPM.Ui.Consoles\obj\Debug\net7.0\ref\PPM.Ui.Consoles.dll
