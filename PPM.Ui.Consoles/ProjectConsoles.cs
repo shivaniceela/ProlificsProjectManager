@@ -19,7 +19,10 @@ namespace PPM.Ui.Consoles
                 System.Console.WriteLine("2. List All Projects");
                 System.Console.WriteLine("3. List Project By Id");
                 System.Console.WriteLine("4. Delete Project By Id");
-                System.Console.WriteLine("5. Return to Main Menu");
+                System.Console.WriteLine("5. AddEmployee to Existing Project");
+                System.Console.WriteLine("6. RemoveEmployeeAndProject");
+                System.Console.WriteLine("7. ViewEmployeeProject");
+                System.Console.WriteLine("8. Return to Main Menu");
                 System.Console.WriteLine("\n**********************************************************************");
 
                 System.Console.WriteLine("Enter your Option");
@@ -29,7 +32,7 @@ namespace PPM.Ui.Consoles
                 {
                     case 1:
                         {
-                            ProjectRepo projectMethods = new ProjectRepo();
+                            Project projectMethods = new Project();
                             projectMethods.AddProjectMethod();
 
                             break;
@@ -39,7 +42,7 @@ namespace PPM.Ui.Consoles
 
                     case 2:
                         {
-                            ProjectRepo projectMethods = new ProjectRepo();
+                            Project projectMethods = new Project();
                             projectMethods.ViewProjects();
 
                             break;
@@ -49,7 +52,7 @@ namespace PPM.Ui.Consoles
                         {
 
 
-                            ProjectRepo projectMethods = new ProjectRepo();
+                            Project projectMethods = new Project();
                             projectMethods.ViewProjectById();
 
                             break;
@@ -60,13 +63,34 @@ namespace PPM.Ui.Consoles
 
                         {
 
-                            ProjectRepo projectMethods = new ProjectRepo();
+                            Project projectMethods = new Project();
                             projectMethods.DeleteProjectById();
 
                             break;
                         }
 
                     case 5:
+                        {
+                            Project projectMethods = new Project();
+                            projectMethods.AddEmployeeExistProjectMethod();
+                            break;
+                        }
+
+                    case 6:
+                        {
+                            Project projectMethods = new Project();
+                            projectMethods.RemoveEmployeeProject();
+                            break;
+                        }
+
+                    case 7:
+                        {
+                            Project projectMethods = new Project();
+                            projectMethods.ViewEmployeeProjectMethod();
+                            break;
+                        }
+
+                    case 8:
 
                         System.Console.WriteLine("Return to Main Menu");
                         return;
@@ -81,7 +105,7 @@ namespace PPM.Ui.Consoles
                 }
 
 
-            } while (selectOption != 6);
+            } while (selectOption != 9);
         }
 
     }

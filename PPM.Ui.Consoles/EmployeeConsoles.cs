@@ -28,7 +28,7 @@ namespace PPM.Ui.Consoles
                 {
                     case 1:
                         {
-                            EmployeeRepo employeeMethods = new EmployeeRepo();
+                            Employee employeeMethods = new Employee();
                             employeeMethods.AddEmployeeConsoleMethod();
 
                             break;
@@ -37,7 +37,7 @@ namespace PPM.Ui.Consoles
                     case 2:
 
                         {
-                            EmployeeRepo employeeMethods = new EmployeeRepo();
+                            Employee employeeMethods = new Employee();
                             employeeMethods.ViewEmployees();
 
                             break;
@@ -46,14 +46,14 @@ namespace PPM.Ui.Consoles
                     case 3:
                         {
 
-                            EmployeeRepo employeeMethods = new EmployeeRepo();
+                            Employee employeeMethods = new Employee();
                             employeeMethods.ViewEmployeeById();
                             break;
                         }
 
                     case 4:
                         {
-                            EmployeeRepo employeeMethods = new EmployeeRepo();
+                            Employee employeeMethods = new Employee();
                             employeeMethods.DeleteEmployeeById();
                             break;
                         }

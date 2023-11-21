@@ -29,7 +29,7 @@ namespace PPM.Ui.Consoles
                     case 1:
                         {
 
-                            RoleRepo roleMethods = new RoleRepo();
+                            Role roleMethods = new Role();
                             roleMethods.AddRoleMethod();
                             
                             break;
@@ -38,7 +38,7 @@ namespace PPM.Ui.Consoles
                     case 2:
                         {
 
-                            RoleRepo roleMethods = new RoleRepo();
+                            Role roleMethods = new Role();
                             roleMethods.ViewRoles();
 
                             break;
@@ -47,7 +47,7 @@ namespace PPM.Ui.Consoles
                     case 3:
                         {
 
-                            RoleRepo roleMethods = new RoleRepo();
+                            Role roleMethods = new Role();
                             roleMethods.ViewRoleById();
 
                             break;
@@ -58,7 +58,7 @@ namespace PPM.Ui.Consoles
                     case 4:
 
                         {
-                            RoleRepo roleMethods = new RoleRepo();
+                            Role roleMethods = new Role();
                             roleMethods.DeleteRoleById();
 
                             break;
