@@ -4,14 +4,14 @@
     "C:\\Users\\SCeela\\Documents\\ProlificsProjectManager\\PPM.Main\\PPM.Main.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SCeela\\Documents\\ProlificsProjectManager\\PPM.Domain\\PPM.Domain.csproj": {
+    "C:\\Users\\SCeela\\Documents\\ProlificsProjectManager\\PPM.Dal\\PPM.Dal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SCeela\\Documents\\ProlificsProjectManager\\PPM.Domain\\PPM.Domain.csproj",
-        "projectName": "PPM.Domain",
-        "projectPath": "C:\\Users\\SCeela\\Documents\\ProlificsProjectManager\\PPM.Domain\\PPM.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\SCeela\\Documents\\ProlificsProjectManager\\PPM.Dal\\PPM.Dal.csproj",
+        "projectName": "PPM.Dal",
+        "projectPath": "C:\\Users\\SCeela\\Documents\\ProlificsProjectManager\\PPM.Dal\\PPM.Dal.csproj",
         "packagesPath": "C:\\Users\\SCeela\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SCeela\\Documents\\ProlificsProjectManager\\PPM.Domain\\obj\\",
+        "outputPath": "C:\\Users\\SCeela\\Documents\\ProlificsProjectManager\\PPM.Dal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SCeela\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,6 +42,76 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\SCeela\\Documents\\ProlificsProjectManager\\PPM.Domain\\PPM.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SCeela\\Documents\\ProlificsProjectManager\\PPM.Domain\\PPM.Domain.csproj",
+        "projectName": "PPM.Domain",
+        "projectPath": "C:\\Users\\SCeela\\Documents\\ProlificsProjectManager\\PPM.Domain\\PPM.Domain.csproj",
+        "packagesPath": "C:\\Users\\SCeela\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SCeela\\Documents\\ProlificsProjectManager\\PPM.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SCeela\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\SCeela\\Documents\\ProlificsProjectManager\\PPM.Dal\\PPM.Dal.csproj": {
+                "projectPath": "C:\\Users\\SCeela\\Documents\\ProlificsProjectManager\\PPM.Dal\\PPM.Dal.csproj"
+              },
+              "C:\\Users\\SCeela\\Documents\\ProlificsProjectManager\\PPM.Model\\PPM.Model.csproj": {
+                "projectPath": "C:\\Users\\SCeela\\Documents\\ProlificsProjectManager\\PPM.Model\\PPM.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            },
             "System.Runtime.Serialization.Xml": {
               "target": "Package",
               "version": "[4.3.0, )"
@@ -203,6 +273,9 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
+              "C:\\Users\\SCeela\\Documents\\ProlificsProjectManager\\PPM.Dal\\PPM.Dal.csproj": {
+                "projectPath": "C:\\Users\\SCeela\\Documents\\ProlificsProjectManager\\PPM.Dal\\PPM.Dal.csproj"
+              },
               "C:\\Users\\SCeela\\Documents\\ProlificsProjectManager\\PPM.Domain\\PPM.Domain.csproj": {
                 "projectPath": "C:\\Users\\SCeela\\Documents\\ProlificsProjectManager\\PPM.Domain\\PPM.Domain.csproj"
               },
