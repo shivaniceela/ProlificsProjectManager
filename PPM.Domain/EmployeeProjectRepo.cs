@@ -1,3 +1,4 @@
+using PPM.Dal;
 using PPM.Model;
 
 namespace PPM.Domain
@@ -10,6 +11,8 @@ namespace PPM.Domain
         public   void AddEmployeeProjectMethod(int projectId, int employeeId, int roleId)
 
         {
+                
+            ProjectDalLayer projectDalLayer =  new ProjectDalLayer();
             EmployeeProject obj = new EmployeeProject()
             {
                 ProjectId = projectId,
@@ -18,23 +21,36 @@ namespace PPM.Domain
 
             };
 
-            employeeProjectObject.Add(obj);
+            projectDalLayer.AddProjectEmployeeDal(obj);
+
         }
 
 
         public  void RemoveEmployeeProjectMethod(int projectId, int employeeId)
         {
-            int remove = employeeProjectObject.FindIndex(r => r.ProjectId == projectId && r.EmployeeId == employeeId);
+            // int remove = employeeProjectObject.FindIndex(r => r.ProjectId == projectId && r.EmployeeId == employeeId);
 
-            if (remove >= 0)
-            {
+            // if (remove >= 0)
+            // {
 
-                employeeProjectObject.RemoveAt(remove);
+            //     employeeProjectObject.RemoveAt(remove);
 
             
-            }
+            // }
+
+            ProjectDalLayer projectDalLayer = new ProjectDalLayer();
+            projectDalLayer.DeleteEmployeeProjectDal(employeeId,projectId);
 
            
+        }
+
+
+        public List<EmployeeProject> ViewEmployeeProject()
+        {
+            ProjectDalLayer projectDalLayer = new ProjectDalLayer();
+            var employeeProjectList = projectDalLayer.ViewEmployeeProjectDal();
+
+            return employeeProjectList;
         }
 
 
