@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPM.Test", "PPM.Test\PPM.Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPM.Serializable", "PPM.Serializable\PPM.Serializable.csproj", "{C0A8A24C-5DF1-400B-8C5B-DDE2D6D07305}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPM.Dal", "PPM.Dal\PPM.Dal.csproj", "{E8599F43-4821-494E-B3E8-5F2500DC355A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +67,10 @@ Global
 		{C0A8A24C-5DF1-400B-8C5B-DDE2D6D07305}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0A8A24C-5DF1-400B-8C5B-DDE2D6D07305}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0A8A24C-5DF1-400B-8C5B-DDE2D6D07305}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8599F43-4821-494E-B3E8-5F2500DC355A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8599F43-4821-494E-B3E8-5F2500DC355A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8599F43-4821-494E-B3E8-5F2500DC355A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8599F43-4821-494E-B3E8-5F2500DC355A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
